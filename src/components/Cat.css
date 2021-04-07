@@ -1,0 +1,17 @@
+.catspin {
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: stretch;
+    margin-bottom: 50px;
+}
+
+img {
+    justify-self: center;
+}
+
+.catspin > div {
+    justify-self: center;
+    align-self: center;
+    font-size: 150px;
+}
